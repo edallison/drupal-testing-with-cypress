@@ -1,0 +1,6 @@
+{
+  "env": {
+    "cyAdminUser": "admin",
+    "cyAdminPassword": "password"
+  }
+}

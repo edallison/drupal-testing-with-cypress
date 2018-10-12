@@ -1,0 +1,9 @@
+{
+  "name": "cypress_testing",
+  "scripts": {
+    "cy:dd": "cypress open --config baseUrl=http://drupal-cypress.dd:8083"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}
