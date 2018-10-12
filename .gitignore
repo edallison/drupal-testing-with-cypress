@@ -37,7 +37,6 @@ sites/simpletest
 # Ignore paths that contain user-generated content.
 */files
 */private
-cypress/backups/*
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
