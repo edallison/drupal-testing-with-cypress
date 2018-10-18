@@ -7,9 +7,9 @@ describe('Login', function() {
   });
   it('logs out via ui', function(){
     cy.login(Cypress.env('cyAdminUser'), Cypress.env('cyAdminPassword'));
-    cy.visit('/');
     cy.server();
     cy.route('POST', '/quickedit/*').as('quickEdit');
+    cy.visit('/');
     cy.wait('@quickEdit');
     cy.get('#block-bartik-account-menu a')
       .contains('Log out')
